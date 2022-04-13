@@ -2,14 +2,14 @@
 # Site
 
 title: Sonologopedie
-url: "https://en.sonologopedie.cz" #"https://tkocjancic.github.io/sonologopedie" #"https://sonologopedie.cz"
+url: "http://en.sonologopedie.cz" #"https://tkocjancic.github.io/sonologopedie" #"https://sonologopedie.cz"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product marketing template for Jekyll.
+description: Speech therapy clinic specializing in the state-of-the-art method of using ultrasound tongue imaging as biofeedback for training of speach sounds.
 author:
   name: Tanja Kocjančič Antolík
   email: sonologopedie@gmail.com
