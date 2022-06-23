@@ -15,50 +15,34 @@ pricing_table:
     call_to_action:
       link: /contact
       text: Book appointment
-  - name: Diagnostic assessment <br> &nbsp;
+  - name: Comprehensive assessment of pronunciation <br> &nbsp;
     color: "#000000"
     features:
       - text: 1200 Czk
         highlight: true
       - text: duration&colon; 45&ndash;60min
         highlight: false
-      - text: Written report&colon; +300Czk
-        highlight: false
     call_to_action:
       link: /contact
       text: Book appointment
-  - name: Speech therapy <br> (short)<br>
+  - name: Pronunciation practice <br> (individual)<br>
     color: "#000000"
     features:
       - text: 500 Czk
         highlight: true
       - text: duration&colon; 30min
         highlight: false
-      - text: Written report&colon; +300Czk
+      - text:
         highlight: false
     call_to_action:
       link: /contact
       text: Book appointment
-  - name: Speech therapy <br> (long)<br>
+  - name: Pronunciation practice <br> (individual)<br>
     color: "#000000"
     features:
       - text: 700 Czk
         highlight: true
       - text: duration&colon; 45min
-        highlight: false
-      - text: Written report&colon; +300Czk
-        highlight: false
-    call_to_action:
-      link: /contact
-      text: Book appointment
-  - name: Pronunciation practice <br> (individual)
-    color: "#000000"
-    features:
-      - text: 700 Czk
-        highlight: true
-      - text: duration&colon; 45min
-        highlight: false
-      - text: 1 person<br>
         highlight: false
     call_to_action:
       link: /contact
@@ -79,12 +63,8 @@ pricing_table:
 faq:
   - question: What types of payment do you accept?
     answer: At the moment we are only able to accept payments via bank account transfer (preferably) or in cash.
-  - question: Do you have contracts with any insurance companies?
-    answer: No. All costs are to be paid in full by the client.
   - question: What is the cost of a workshop?
     answer: For pricing of <b>workshops</b> please contact us at <a href="#">sonologopedie@gmail.com</a>.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">sonologopedie@gmail.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
