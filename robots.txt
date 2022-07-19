@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://en.sonologopedie.cz/sitemap.xml
